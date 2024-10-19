@@ -1,0 +1,14 @@
+[
+  {
+    "caption": "Wasps",
+    "id": "wasp",
+    "children": [
+      {
+        "command": "security_review",
+        "caption": "Security Review"
+      },
+      { "command": "ai_code_review", "caption": "AI Code Review" },
+      { "command": "api_key", "caption": "Enter/Remove API Key" }
+    ]
+  }
+]

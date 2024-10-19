@@ -1,0 +1,4 @@
+sublime*.py
+env
+*.py[cd]
+__pycache__/
