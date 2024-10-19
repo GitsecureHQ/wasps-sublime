@@ -1,0 +1,5 @@
+# Wasps
+
+Install from package control repository and obtain an api key from https://gitsecure.dev.
+
+See the docs for more information at https://docs.gitsecure.dev/wasps

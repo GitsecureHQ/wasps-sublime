@@ -13,17 +13,6 @@ actions = [
 ]
 
 
-class WaspsCommand(sublime_plugin.EventListener):
-    def on_selection_modified(self, view: sublime.View, *args, **kwargs):
-        start, end = sorted(view.sel()[0].to_tuple())
-        if start == end:
-            # no selection
-            return
-
-    def on_done(self, choice: int):
-        print(choice)
-
-
 class SecurityReviewCommand(sublime_plugin.WindowCommand):
     def run(self):
         window = self.window

@@ -1,0 +1,21 @@
+{
+    "packages": [
+        {
+            "name": "Wasps",
+            "details": "https://github.com/GitsecureHQ/wasps-sublime",
+            "description": "Plugin for Sublime text 3 for convert chinese characters.",
+            "homepage": "https://github.com/GitsecureHQ/wasps-sublime",
+            "author": "GitsecureHQ",
+            "releases": [
+                {
+                    "sublime_text": ">3000",
+                    "platforms": [
+                        "osx",
+                        "windows"
+                    ],
+                    "tags": true
+                }
+            ]
+        }
+    ]
+}
